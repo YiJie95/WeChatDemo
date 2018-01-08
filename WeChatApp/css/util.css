@@ -1,0 +1,29 @@
+
+.border{
+	border: 1px solid red;
+}
+
+.flex-row-nowarp{
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.align-col-end{
+	align-items: flex-end;
+}
+
+.align-col-center{
+	align-items: center;
+}
+
+.align-col-right{
+	justify-content: flex-end;
+	padding-right: 5px;
+}
+.align-row-center{
+	justify-content: center;
+}
+
+.align-row-right{
+	justify-content: flex-end;
+}
