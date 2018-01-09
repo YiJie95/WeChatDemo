@@ -15,12 +15,20 @@
 		<link rel="stylesheet" href="../css/dynamic.css" />
 	    <link rel="stylesheet" href="../css/menus.css" />
 	    
-	    <link rel="stylesheet" href="../css/friend.css" />
+	    <link rel="stylesheet" href="../css/moments.css" />
+	    <link rel="stylesheet" href="../css/moments-title.css" />
 		
 	</head>
 	<body>
 		
 		<div id="container">
+			
+			<!--
+            	作者：衣洁
+            	时间：2018-01-08
+            	描述：顶部
+            -->
+			
 			<div id="app_bar" class="flex-row-nowarp align-col-center">
 				
 				<div id="app_bar_left" class="flex-row-nowarp align-col-center">
@@ -34,7 +42,9 @@
 					<div id="xg" class="flex-row-nowarp align-col-center">4G</div>
 				</div>
 				
-				<div id="app_bar_center" class="flex-row-nowarp align-row-center align-col-center">12:00AM</div>
+				<div id="app_bar_center" class="flex-row-nowarp align-row-center align-col-center">
+					12:00AM
+				</div>
 				
 				<div id="app_bar_right" class="flex-row-nowarp align-col-center align-row-right">
 					<div id="batteray_quantity">80%</div>
@@ -46,16 +56,33 @@
 				
 			</div>
 			
+			<!--
+            	作者：衣洁
+            	时间：2018-01-08
+            	描述：头部
+            -->
 			<div id="title" class="flex-row-nowarp align-col-center">
-				<div id="title_left">
-					<img src="../img/title/left.jpg"/></div>
-				<div id="title_center">朋友圈</div>
-				<div id="title_right" class="align-col-right">
-					<img src="../img/title/left.jpg"/>
-			    </div>
+				<div id="title_left" class="flex-row-nowarp align-col-center">
+					微信(+99)
+				</div>
+				<div id="title_center" class="flex-row-nowarp align-col-center align-row-center">
+					
+				</div>
+				<div id="title_right" class="flex-row-nowarp align-col-center align-row-right postion-relative">
+					<div id="add"></div>
+					<div id="title_submenu">
+						
+					</div>
+				</div>
 			</div>
 			
-			<div id="dynamic" class="border">
+			
+			<!--
+            	作者：衣洁
+            	时间：2018-01-08
+            	描述：页面导航部分
+            -->
+			<div id="dynamic">
 				
 				<div class="circle_friends_img"></div>
 				<div class="flex-row-nowarp circle_friends_myself position-relative" >
@@ -64,15 +91,18 @@
 				</div>
 				    
 				<div class="flex-row-nowarp">
-					<div>
-				    	<img src=""/>
-				    </div>
+					<div></div>
 					<div>***</div>
 				</div>
 			</div>
 			
+			<!--
+            	作者：衣洁
+            	时间：2018-01-08
+            	描述：底部
+            -->
 			<div id="menus" class="border flex-row-nowarp">
-				<div id="menus-frist"><img src="../img/menus/wechat.svg" />微信</div>
+				<div id="menus-frist">微信</div>
 				<div id="menus-second">通讯录</div>
 				<div id="menus-third">发现</div>
 				<div id="menus-last">我</div>
@@ -82,3 +112,5 @@
 		
 	</body>
 </html>
+<script type="text/javascript" src="../lib/jquery.js" ></script>
+<script type="text/javascript" src="../js/title.js" ></script>
