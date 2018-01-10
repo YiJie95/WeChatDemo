@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/util.css" />
+		<link rel="stylesheet" href="../css/chat.css" />
+		
+		<link rel="stylesheet" href="../css/title.css" />
+		<link rel="stylesheet" href="../css/app_bar.css" />
+		<link rel="stylesheet" href="../css/dynamic.css" />
+	    <link rel="stylesheet" href="../css/menus.css" />
+	    
+	    <link rel="stylesheet" href="../css/moments.css" />
+	    <link rel="stylesheet" href="../css/moments-title.css" />
+		
+	</head>
+	<body>
+		<!--
+        	作者：衣洁
+        	时间：2018-01-08
+        	描述：朋友圈页面
+        -->
+		<div id="container">
+			
+			<!--
+            	作者：衣洁
+            	时间：2018-01-08
+            	描述：顶部
+            -->
+			<div id="app_bar" class="flex-row-nowarp align-col-center">
+				
+				<div id="app_bar_left" class="flex-row-nowarp align-col-center">
+					<div id="singnal" class="flex-row-nowarp align-col-end">
+						    <div class="has-singnal"></div>
+						    <div class="has-singnal"></div>
+						    <div class="has-singnal"></div>
+						    <div class="no-singnal"></div>
+					</div>
+					<div id="operator" class="flex-row-nowarp align-col-center">中国移动</div>
+					<div id="xg" class="flex-row-nowarp align-col-center">4G</div>
+				</div>
+				
+				<div id="app_bar_center" class="flex-row-nowarp align-row-center align-col-center">12:00AM</div>
+				
+				<div id="app_bar_right" class="flex-row-nowarp align-col-center align-row-right">
+					<div id="batteray_quantity">80%</div>
+					<div id="batteray" class=" flex-row-nowarp align-col-center">
+						<div id="batteray_body"></div>
+					</div>
+					<div id="batteray_head"></div>
+				</div>
+				
+			</div>
+			
+			<!--
+            	作者：衣洁
+            	时间：2018-01-08
+            	描述：头部
+            -->
+			<div id="moments_title" class="flex-row-nowarp align-row-center align-col-center">
+				<div id="moments_title_left" class="align-row-center align-col-center find_font">
+					<a href="moments_index.html" style="text-decoration: none;">
+					<img src="../img/title/left.svg"/></a>&nbsp;&nbsp;&nbsp;朋友圈</div>
+				<div id="moments_title_right" class="flex-row-nowarp align-col-center align-row-right position-relative">
+					<div id="moments_camera"></div>
+					<div id="moments_camera_title">
+						<div id="moments_border">
+							拍摄<br />
+							从相册中选择
+						</div>
+					</div>
+			    </div>
+			</div>
+			
+			<div id="dynamic">
+				<!--
+            	作者：衣洁
+            	时间：2018-01-08
+            	描述：墙面背景、个人头像、昵称
+                -->
+				<div class="moments_img"></div>
+				<div class="flex-row-nowarp moments_myself position-relative" >
+					<div id="font_name_myself">Lay</div>
+					<div id="moments_myself"></div>
+				</div>
+				
+				<!--
+                	作者：衣洁
+                	时间：2018-01-08
+                	描述：朋友圈--消息信息部分
+                -->    
+				<div class="flex-row-nowarp moments_margin">
+					<div class="memonts_image">
+				    	<img src="../img/moments/head1.jpg"/>
+				    </div>
+				    
+					<div class="moments_context">
+						<div class="font_name">BAEKHYUN</div>
+						<div class="font_text">星星为什么看来如此渺小，是因为它把自己放得太高。</div>
+						
+					</div>
+
+				</div>
+				<div class="flex-row-nowarp position-relative">
+					<a class="font_time">1小时前</a>
+					<div class="moments_bbs"></div>
+					<div id="bbs_border" class="flex-row-nowarp">
+						<div class="bbs_popup"><img src="../img/moments/thumbUp.svg"/>&nbsp;赞</div>
+						<div class="bbs_popup"><img src="../img/moments/comment.svg"/>&nbsp;评论</div>
+				   </div>	
+				</div>
+		
+				<hr id="moments_hr" />
+				
+				
+				<div class="flex-row-nowarp moments_margin">
+					<div class="memonts_image">
+				    	<img src="../img/moments/head4.jpg"/>
+				    </div>
+					<div class="moments_context">
+						<div class="font_name">CHANYEOL</div>
+						<div class="font_text">
+							以前，曾经有一个人教会我一件事。要学会去相信一些看似不可能的事，当你真的相信的时候，
+							或许没有事情是不可能的。
+						</div>
+					</div>
+				</div>
+				<div class="flex-row-nowarp position-relative">
+					<a class="font_time">一周前</a>
+					<div class="moments_bbs"></div>
+					<!--<div id="bbs_border" class="flex-row-nowarp">
+						<div class="bbs_popup"><img src="../img/moments/thumbUp.svg"/>赞</div>
+						<div class="bbs_popup"><img src="../img/moments/comment.svg"/>评论</div>
+				   </div>-->
+				</div>
+		
+				<hr id="moments_hr" />
+				
+				<div class="flex-row-nowarp moments_margin">
+					<div class="memonts_image">
+				    	<img src="../img/moments/head3.jpg"/>
+				    </div>
+					<div class="moments_context">
+						<div class="font_name">SEHUN</div>
+						<div class="font_text">
+							北林有燕，雨落雪兮。
+							朔风哀哀，比翼难飞。<br />
+							欲折雨兮，奈之若何。
+							朔风凛凛，终不离兮。
+						</div>
+						
+						<div><img src="../img/moments/head2.jpg"/></div>
+					</div>
+				</div>
+				<div class="flex-row-nowarp ">
+					<a class="font_time">一月前</a>
+					<div class="moments_bbs"></div>
+				</div>
+		
+				<hr id="moments_hr" />
+				
+				
+			</div>
+			
+		</div>
+		
+	</body>
+</html>
+
+<script type="text/javascript" src="../lib/jquery.js" ></script>
+<script type="text/javascript" src="../js/moments.js" ></script>

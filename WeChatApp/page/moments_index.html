@@ -10,7 +10,6 @@
 		<link rel="stylesheet" href="../css/util.css" />
 		<link rel="stylesheet" href="../css/chat.css" />
 		
-		<link rel="stylesheet" href="../css/title.css" />
 		<link rel="stylesheet" href="../css/app_bar.css" />
 		<link rel="stylesheet" href="../css/dynamic.css" />
 	    <link rel="stylesheet" href="../css/menus.css" />
@@ -61,18 +60,16 @@
             	时间：2018-01-08
             	描述：头部
             -->
-			<div id="title" class="flex-row-nowarp align-col-center">
-				<div id="title_left" class="flex-row-nowarp align-col-center">
+			<div id="moments_title" class="flex-row-nowarp align-col-center">
+				<div id="moments_title_left" class="flex-row-nowarp align-col-center">
 					微信(+99)
 				</div>
-				<div id="title_center" class="flex-row-nowarp align-col-center align-row-center">
+				<div id="moments_title_center" class="flex-row-nowarp align-col-center align-row-center">
 					
 				</div>
-				<div id="title_right" class="flex-row-nowarp align-col-center align-row-right postion-relative">
+				<div id="moments_title_right" class="flex-row-nowarp align-col-center align-row-right postion-relative">
 					<div id="add"></div>
-					<div id="title_submenu">
-						
-					</div>
+					<div id="title_submenu"></div>
 				</div>
 			</div>
 			
@@ -83,17 +80,49 @@
             	描述：页面导航部分
             -->
 			<div id="dynamic">
+
+				<div class="flex-row-nowarp align-col-center" onclick="window.location.href= 'moments.html';return false">
+					<div class="find_moments find_inside flex-row-nowarp align-col-center">
+						<div id="moments_title_left" class="find_font">
+							<img src="../img/moments/moments.svg" />
+							&nbsp;&nbsp;朋友圈
+						</div>
+						
+						<div id="moments_title_right" class="flex-row-nowarp align-col-center align-row-right">
+							<div class="flex-row-nowarp align-col-center">
+								<img src="../img/moments/timg.jpg" />
+								<div class="find_dot border"></div>
+							</div>
+						</div>
+					</div>
+				</div>
 				
-				<div class="circle_friends_img"></div>
-				<div class="flex-row-nowarp circle_friends_myself position-relative" >
-					<div>****</div>
-					<div id="circle_friends_myself"></div>
+				<div class=" find_levels_currency find_inside">
+					<div id="moments_title_left" class="find_font inside">
+							<img src="../img/moments/scan.svg" />
+							&nbsp;&nbsp;扫一扫
+					</div>
+					<hr id="moments_hr"/>
+					<div id="moments_title_left" class="find_font inside ">
+							<img src="../img/moments/shake.svg" />
+							&nbsp;&nbsp;摇一摇
+					</div>	
 				</div>
-				    
-				<div class="flex-row-nowarp">
-					<div></div>
-					<div>***</div>
+				
+				<div class=" find_levels_currency find_inside">
+					<div id="moments_title_left" class="find_font inside">
+							<img src="../img/moments/shopping.svg" />
+							&nbsp;&nbsp;购 &nbsp;物
+					</div>
+					<hr id="moments_hr"/>
+					<div id="moments_title_left" class="find_font inside ">
+							<img src="../img/moments/game.svg" />
+							&nbsp;&nbsp;游&nbsp; 戏
+					</div>	
 				</div>
+				
+				
+				
 			</div>
 			
 			<!--
@@ -107,7 +136,7 @@
 				<div id="menus-third">发现</div>
 				<div id="menus-last">我</div>
 			</div>
-			
+
 		</div>
 		
 	</body>

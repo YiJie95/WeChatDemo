@@ -9,15 +9,36 @@
 
 #moments_title_left{
 	height: 34px;
-	width: 50px;
+	width: 100px;
 	padding-left: 10px;
-}
-#moments_title_center{
-	height: 34px;
-	flex: 5;
 }
 #moments_title_right{
 	height: 34px;
 	width: 100px;
 	padding-right: 10px;
+	flex: 1;
 }
+
+#add{
+	height: 30px;
+	width: 30px;
+	background-image: url(../img/title/add.svg);
+	background-position: center;
+	background-size: 70%;
+	background-repeat: no-repeat;
+	
+	margin-right: 4px;
+	position: relative;
+}
+
+#title_submenu{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	background-color: #212121;
+	
+	top: 40px;
+	
+	z-index: 1;
+}
+
