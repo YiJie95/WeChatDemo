@@ -1,50 +1,53 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		
+
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-		
+
 		<link rel="stylesheet" href="../css/common.css" />
 		<link rel="stylesheet" href="../css/util.css" />
 		<link rel="stylesheet" href="../css/chat.css" />
-		
+
+		<link rel="stylesheet" href="../css/title.css" />
 		<link rel="stylesheet" href="../css/app_bar.css" />
 		<link rel="stylesheet" href="../css/dynamic.css" />
-	    <link rel="stylesheet" href="../css/menus.css" />
-	    
-	    <link rel="stylesheet" href="../css/moments.css" />
-	    <link rel="stylesheet" href="../css/moments-title.css" />
-		
+		<link rel="stylesheet" href="../css/menus.css" />
+
+		<link rel="stylesheet" href="../css/moments.css" />
+		<link rel="stylesheet" href="../css/moments-title.css" />
+
 	</head>
+
 	<body>
-		
+
 		<div id="container">
-			
+
 			<!--
             	作者：衣洁
             	时间：2018-01-08
             	描述：顶部
             -->
-			
+
 			<div id="app_bar" class="flex-row-nowarp align-col-center">
-				
+
 				<div id="app_bar_left" class="flex-row-nowarp align-col-center">
 					<div id="singnal" class="flex-row-nowarp align-col-end">
-						    <div class="has-singnal"></div>
-						    <div class="has-singnal"></div>
-						    <div class="has-singnal"></div>
-						    <div class="no-singnal"></div>
+						<div class="has-singnal"></div>
+						<div class="has-singnal"></div>
+						<div class="has-singnal"></div>
+						<div class="no-singnal"></div>
 					</div>
 					<div id="operator" class="flex-row-nowarp align-col-center">中国移动</div>
 					<div id="xg" class="flex-row-nowarp align-col-center">4G</div>
 				</div>
-				
+
 				<div id="app_bar_center" class="flex-row-nowarp align-row-center align-col-center">
 					12:00AM
 				</div>
-				
+
 				<div id="app_bar_right" class="flex-row-nowarp align-col-center align-row-right">
 					<div id="batteray_quantity">80%</div>
 					<div id="batteray" class=" flex-row-nowarp align-col-center">
@@ -52,9 +55,9 @@
 					</div>
 					<div id="batteray_head"></div>
 				</div>
-				
+
 			</div>
-			
+
 			<!--
             	作者：衣洁
             	时间：2018-01-08
@@ -65,15 +68,13 @@
 					微信(+99)
 				</div>
 				<div id="moments_title_center" class="flex-row-nowarp align-col-center align-row-center">
-					
+
 				</div>
 				<div id="moments_title_right" class="flex-row-nowarp align-col-center align-row-right postion-relative">
 					<div id="add"></div>
-					<div id="title_submenu"></div>
 				</div>
 			</div>
-			
-			
+
 			<!--
             	作者：衣洁
             	时间：2018-01-08
@@ -84,10 +85,9 @@
 				<div class="flex-row-nowarp align-col-center" onclick="window.location.href= 'moments.html';return false">
 					<div class="find_moments find_inside flex-row-nowarp align-col-center">
 						<div id="moments_title_left" class="find_font">
-							<img src="../img/moments/moments.svg" />
-							&nbsp;&nbsp;朋友圈
+							<img src="../img/moments/moments.svg" /> &nbsp;&nbsp;朋友圈
 						</div>
-						
+
 						<div id="moments_title_right" class="flex-row-nowarp align-col-center align-row-right">
 							<div class="flex-row-nowarp align-col-center">
 								<img src="../img/moments/timg.jpg" />
@@ -96,50 +96,60 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<div class=" find_levels_currency find_inside">
 					<div id="moments_title_left" class="find_font inside">
-							<img src="../img/moments/scan.svg" />
-							&nbsp;&nbsp;扫一扫
+						<img src="../img/moments/scan.svg" /> &nbsp;&nbsp;扫一扫
 					</div>
-					<hr id="moments_hr"/>
+					<hr id="moments_hr" />
 					<div id="moments_title_left" class="find_font inside ">
-							<img src="../img/moments/shake.svg" />
-							&nbsp;&nbsp;摇一摇
-					</div>	
+						<img src="../img/moments/shake.svg" /> &nbsp;&nbsp;摇一摇
+					</div>
 				</div>
-				
+
 				<div class=" find_levels_currency find_inside">
 					<div id="moments_title_left" class="find_font inside">
-							<img src="../img/moments/shopping.svg" />
-							&nbsp;&nbsp;购 &nbsp;物
+						<img src="../img/moments/shopping.svg" /> &nbsp;&nbsp;购 &nbsp;物
 					</div>
-					<hr id="moments_hr"/>
+					<hr id="moments_hr" />
 					<div id="moments_title_left" class="find_font inside ">
-							<img src="../img/moments/game.svg" />
-							&nbsp;&nbsp;游&nbsp; 戏
-					</div>	
+						<img src="../img/moments/game.svg" /> &nbsp;&nbsp;游&nbsp; 戏
+					</div>
 				</div>
-				
-				
-				
+
 			</div>
-			
+
 			<!--
             	作者：衣洁
             	时间：2018-01-08
             	描述：底部
             -->
-			<div id="menus" class="border flex-row-nowarp">
-				<div id="menus-frist">微信</div>
-				<div id="menus-second">通讯录</div>
-				<div id="menus-third">发现</div>
-				<div id="menus-last">我</div>
-			</div>
+			<div id="menus" class=" flex-row-nowarp align-row-center align-col-center">
+				<div id="menus-left" class="flex-col-nowarp align-row-center ">
+					<div id="chat"></div>
+					<div id="chat-word" class="menus_font">微信</div>
+				</div>
 
+				<div id="menus-center-left" class="flex-col-nowarp align-row-center">
+					<div id="address"></div>
+					<div id="address-word" class="menus_font">通讯录</div>
+				</div>
+
+				<div id="menus-center-right" class="flex-col-nowarp align-row-center">
+					<div id="found" class="box-size position-relative">
+						<div id="d2" class="box-size position-absolute"></div>
+					</div>
+					<div id="found-word" class="menus_font">发现</div>
+				</div>
+
+				<div id="menus-right" class="flex-col-nowarp align-row-center">
+					<div id="me"></div>
+					<div id="me-word" class="menus_font">我</div>
+				</div>
+			</div>
 		</div>
-		
 	</body>
+
 </html>
-<script type="text/javascript" src="../lib/jquery.js" ></script>
-<script type="text/javascript" src="../js/title.js" ></script>
+<script type="text/javascript" src="../lib/jquery.js"></script>
+<script type="text/javascript" src="../js/title.js"></script>
